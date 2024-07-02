@@ -18,6 +18,7 @@ import { BaileysProvider as Provider } from "@builderbot/provider-baileys";
 import { toAsk, httpInject } from "@builderbot-plugins/openai-assistants";
 import { typing } from "./utils/presence";
 import sendMessageWoodChat from "./services/chatwood2";
+// import { sendMessageChatWood } from "./services/chatwood";
 
 const PORT = process.env?.PORT ?? 3003;
 const ASSISTANT_ID = process.env?.ASSISTANT_ID ?? "";
@@ -54,6 +55,7 @@ const main = async () => {
 	const adapterProvider = createProvider(Provider);
 	const adapterDB = new Database();
 
+	// const { httpServer, handleCtx }
 	const { httpServer, handleCtx } = await createBot({
 		flow: adapterFlow,
 		provider: adapterProvider,
@@ -61,14 +63,17 @@ const main = async () => {
 	});
 
 	adapterProvider.server.get(
-		"/get-qr",
+		"/",
 		handleCtx(async (bot, req, res) => {
 			const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
 			const fileStream = createReadStream(YOUR_PATH_QR);
 
-			fileStream.on("open", () => {
+			fileStream.on("open", async () => {
 				res.setHeader("Content-Type", "image/png");
 				fileStream.pipe(res);
+				await sendMessageWoodChat(
+					"Escanea este código QR para enlazarte: [archivo adjunto]"
+				);
 			});
 
 			fileStream.on("error", (err) => {
@@ -77,14 +82,9 @@ const main = async () => {
 		})
 	);
 
+	// const server = new ServerHttp(adapterProvider);
+	// httpInject(adapterProvider.server);
 	httpServer(+PORT);
-
-	const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
-	const fileStream = createReadStream(YOUR_PATH_QR);
-
-	fileStream.on("open", async () => {
-		await sendMessageWoodChat("Escanea este código QR para enlazarte");
-	});
 
 	adapterProvider.server.post(
 		"/chatwood-hook",
@@ -98,6 +98,9 @@ const main = async () => {
 			await bot.sendMessage(phone, body.content, {});
 		})
 	);
+
+	// server.start();
+	// app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 };
 
 main();
