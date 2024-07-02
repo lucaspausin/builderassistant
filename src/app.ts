@@ -68,12 +68,11 @@ const main = async () => {
 			const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
 			const fileStream = createReadStream(YOUR_PATH_QR);
 
+			await sendMessageWoodChat("hola");
+
 			fileStream.on("open", async () => {
 				res.setHeader("Content-Type", "image/png");
 				fileStream.pipe(res);
-				await sendMessageWoodChat(
-					"Escanea este código QR para enlazarte: [archivo adjunto]"
-				);
 			});
 
 			fileStream.on("error", (err) => {
