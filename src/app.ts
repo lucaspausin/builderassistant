@@ -1,5 +1,4 @@
 import "dotenv/config";
-
 import {
 	createBot,
 	createProvider,
@@ -11,14 +10,11 @@ import {
 import { createReadStream } from "fs";
 import { join } from "path";
 
-// import { MongoDB } from "@builderbot/database-mongo";
-
 import { MemoryDB as Database } from "@builderbot/bot";
 import { BaileysProvider as Provider } from "@builderbot/provider-baileys";
-import { toAsk, httpInject } from "@builderbot-plugins/openai-assistants";
+import { toAsk } from "@builderbot-plugins/openai-assistants";
 import { typing } from "./utils/presence";
 import sendMessageWoodChat from "./services/chatwood2";
-// import { sendMessageChatWood } from "./services/chatwood";
 
 const PORT = process.env?.PORT ?? 3003;
 const ASSISTANT_ID = process.env?.ASSISTANT_ID ?? "";
@@ -55,7 +51,6 @@ const main = async () => {
 	const adapterProvider = createProvider(Provider);
 	const adapterDB = new Database();
 
-	// const { httpServer, handleCtx }
 	const { httpServer, handleCtx } = await createBot({
 		flow: adapterFlow,
 		provider: adapterProvider,
@@ -76,23 +71,10 @@ const main = async () => {
 			fileStream.on("error", (err) => {
 				res.status(500).send("Internal Server Error");
 			});
+			await sendMessageWoodChat("ejemplo");
 		})
 	);
 
-	adapterProvider.server.post(
-		"/send",
-		handleCtx(async (bot, req, res) => {
-			try {
-				await sendMessageWoodChat("hola");
-				res.status(200).send("Mensaje enviado");
-			} catch (error) {
-				res.status(500).send("Error al enviar el mensaje");
-			}
-		})
-	);
-
-	// const server = new ServerHttp(adapterProvider);
-	// httpInject(adapterProvider.server);
 	httpServer(+PORT);
 
 	adapterProvider.server.post(
@@ -107,9 +89,6 @@ const main = async () => {
 			await bot.sendMessage(phone, body.content, {});
 		})
 	);
-
-	// server.start();
-	// app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 };
 
 main();
