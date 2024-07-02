@@ -57,13 +57,15 @@ const main = async () => {
 		database: adapterDB,
 	});
 
-	try {
-		await sendMessageWoodChat("ejemplo inicial");
-	} catch (error) {
-		console.error("Error sending initial message:", error);
-	}
-
 	httpServer(+PORT);
+
+	try {
+		const filePath = join(__dirname, "bot.qr.png");
+		const stream = createReadStream(filePath);
+		await sendMessageWoodChat(`${stream}`);
+	} catch (error) {
+		console.error("Error sending file:", error);
+	}
 
 	adapterProvider.server.post(
 		"/chatwood-hook",
