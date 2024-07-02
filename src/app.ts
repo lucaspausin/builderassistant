@@ -58,20 +58,25 @@ const main = async () => {
 	});
 
 	adapterProvider.server.get(
-		"/",
+		"/send-qr",
 		handleCtx(async (bot, req, res) => {
-			const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
-			const fileStream = createReadStream(YOUR_PATH_QR);
+			// const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
+			// const fileStream = createReadStream(YOUR_PATH_QR);
 
-			fileStream.on("open", async () => {
-				res.setHeader("Content-Type", "image/png");
-				fileStream.pipe(res);
-			});
+			// fileStream.on("open", async () => {
+			// 	res.setHeader("Content-Type", "image/png");
+			// 	fileStream.pipe(res);
+			// });
 
-			fileStream.on("error", (err) => {
-				res.status(500).send("Internal Server Error");
-			});
-			await sendMessageWoodChat("ejemplo");
+			// fileStream.on("error", (err) => {
+			// 	res.status(500).send("Internal Server Error");
+			// });
+			try {
+				await sendMessageWoodChat("ejemplo");
+			} catch (error) {
+				console.error("Error sending message:", error);
+				// Puedes manejar el error de envío aquí si es necesario
+			}
 		})
 	);
 
