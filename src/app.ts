@@ -80,7 +80,7 @@ const main = async () => {
 	);
 
 	adapterProvider.server.post(
-		"/",
+		"/send",
 		handleCtx(async (bot, req, res) => {
 			try {
 				await sendMessageWoodChat("hola");
