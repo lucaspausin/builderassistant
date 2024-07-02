@@ -1,0 +1,627 @@
+[
+  {
+    "ref": "40020242-048c-461a-a808-9af600bca0ed",
+    "keyword": "0da76a61dcf7d0811c309806a4edb672",
+    "answer": "hola",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "51430655-e4b1-478f-b3ee-8204641e1885",
+    "keyword": null,
+    "answer": "Hola, ¿en qué puedo ayudarte con respecto a la instalación de GNC en tu vehículo?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "87532be2e3b05af2111002237ac58cad"
+  },
+  {
+    "ref": "1fa1705d-da93-465e-b864-b4a712a535b2",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "dame el alias para transferir de la renovación de oblea",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "71715bf0e5d4281b07d38c21435d7b0f"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "89f0aa82-d507-404a-ae74-62d1b83e7594",
+    "keyword": null,
+    "answer": "El alias para transferir el pago de la renovación de la oblea es \"Obleasmotorgas\" a nombre de Joaqui González Silvestri. El precio de la renovación es de $13.000 y se puede abonar por transferencia bancaria o en efectivo en el taller. Una vez realizado el pago, puedes retirar la oblea al día siguiente hábil de haber enviado la documentación requerida .",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "0186c966557bd722434f3c18dd8133f1"
+  },
+  {
+    "ref": "f9c12685-67c7-4e4e-9da8-4ba3cfa6545f",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Dale joya listo, donde era que se ubicaban ustedes?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "79f3d703ca9d5a6265c445cc49e5c6c4"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "2208a3e7-eaec-40e3-9cfe-389fd78f35e3",
+    "keyword": null,
+    "answer": "Nos encontramos en Av. Presidente Perón 3679, El Palomar, a 2 cuadras de la autopista Acceso Oeste. ¿Te gustaría saber más sobre la instalación de GNC en tu vehículo?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "cb795a1cdaefa8948b8eb4356d49820c"
+  },
+  {
+    "ref": "b5914ee9-1c5b-4cbd-8255-67084a8fd661",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Capaz me paso en algunos dias",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "8a3c53d4e720dfb78d319f2998746a4f"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "64c03fa1-c0b4-4a86-b218-375ac2c15e5c",
+    "keyword": null,
+    "answer": "Perfecto, estaré encantado de ayudarte cuando decidas venir. Si tienes alguna otra pregunta o necesitas más información, no dudes en consultarme. ¡Que tengas un buen día!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "02c2298b930992ba4756a8e27c7b5d63"
+  },
+  {
+    "ref": "3501c842-9368-41b7-803e-f145195db08c",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Si, hacen isntalacione s de gnc no?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "fdd9d345499b4cdb255554f8089476a3"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "4b021929-0913-489d-beb2-64247ef9985c",
+    "keyword": null,
+    "answer": "¡Sí, realizamos instalaciones de equipos de GNC! Estamos ubicados en Av. Presidente Perón 3679, El Palomar, a 2 cuadras de la autopista Acceso Oeste. Si estás interesado en obtener más información sobre la instalación de GNC en tu vehículo, no dudes en consultarme.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "44c1099827a7dffc0c89ad03fcf9d6e7"
+  },
+  {
+    "ref": "d626fd41-f0d2-42a4-9a2b-6656436991b0",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Necesito precio para un Ford focus de 60 cilindros",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "f678b182277c9e678e24f4e1d89154ec"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "79864e2f-7535-4e70-82bc-c5d644565de6",
+    "keyword": null,
+    "answer": "Para un Ford Focus con un cilindro de 60 litros, el precio de contado es de $1.068.341. También ofrecemos opciones de financiamiento en cuotas simples de 3, 6, 9 y 12 meses, con montos de $420.214, $222.571, $154.316 y $126.420 respectivamente. Si estás interesado en obtener más detalles o realizar la instalación, no dudes en contactarnos. ¡Estamos aquí para ayudarte!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "4417fff8ddb995b8032d807fc740bb57"
+  },
+  {
+    "ref": "b82de42e-0149-4edd-b55b-fad099f255a3",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "y otras opciones aparte del 60 cilidnros hay?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "f441b73584dd097b3d8bd5eec86eaa4d"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "e5c528cd-b04f-4965-9bed-c14636eb3d99",
+    "keyword": null,
+    "answer": "Sí, tenemos varias opciones de cilindros para diferentes modelos de vehículos. Por ejemplo, para el Ford Focus, además del cilindro de 60 litros, también ofrecemos la opción de cilindros de 30 y 40 litros. Los precios y opciones de financiamiento para cada cilindro son los siguientes:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "d8acad20cc8315eb77a70b3fd40c9e9a"
+  },
+  {
+    "ref": "236febb0-e881-4999-a8e8-46053f0ec9e8",
+    "keyword": null,
+    "answer": "- Cilindro de 30 litros: Precio de contado $1.068.341, cuota simple 3 de $420.214, cuota simple 6 de $222.571, cuota simple 9 de $154.316, cuota simple 12 de $126.420.\n- Cilindro de 40 litros: Precio de contado $1.068.341, cuota simple 3 de $420.214, cuota simple 6 de $222.571, cuota simple 9 de $154.316, cuota simple 12 de $126.420.\n- Cilindro de 60 litros: Precio de contado $1.068.341, cuota simple 3 de $420.214, cuota simple 6 de $222.571, cuota simple 9 de $154.316, cuota simple 12 de $126.420.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "fb4348c93b9a66eb0ccee32fc6f89f41"
+  },
+  {
+    "ref": "42018606-9a08-4d74-b322-3775a1a04c5c",
+    "keyword": null,
+    "answer": "Estas son las opciones disponibles para el Ford Focus, pero también tenemos opciones para otros modelos de vehículos. Si necesitas más detalles sobre alguna opción en particular, no dudes en consultarme.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "8668d93d24bc2300de328da186a75998"
+  },
+  {
+    "ref": "1d08bb8b-07b1-401b-bffc-1cd712d43106",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "El de 40 cuanto esta?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "fb10b941ccc5f2d0a6d42f67ba481ca4"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "9745de4d-801e-4d4e-8f14-a86f9f23e226",
+    "keyword": null,
+    "answer": "El precio del cilindro de 40 litros para el Ford Focus es de $1.068.341 de contado. Si estás interesado en conocer las opciones de financiamiento en cuotas, puedo proporcionarte esa información también.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "903d22e92bd8a6a97bd3dae7e249ab05"
+  },
+  {
+    "ref": "27951ae8-30ac-438d-acce-65b17c855e2d",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "No tendría que valer menos que el de 60?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "076eec76602c128b1d53c9278fecfb85"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "54c35b85-3b81-437a-b9ee-04e1068ec8fa",
+    "keyword": null,
+    "answer": "Lamentablemente, no pude encontrar información específica sobre el precio del cilindro de 40 litros para el Ford Focus en los documentos proporcionados. Sin embargo, el precio del cilindro de 40 litros para otros modelos de vehículos es de $957.013 de contado. Si necesitas información más detallada sobre el precio para el Ford Focus, te recomendaría contactarnos directamente para obtener la información precisa.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "587da7e912b60569382b62df1fd24624"
+  },
+  {
+    "ref": "f8395bd2-6c59-408e-8ed0-07cfb9246bb2",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Si, necesitaría saber los horarios de instalación?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "37ecb81774f6af94393585aa61d54917"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "df85d819-120a-46b1-b172-f674bf962384",
+    "keyword": null,
+    "answer": "Los horarios para la instalación de equipos de GNC son de lunes a viernes, de 8:30 am a 5:30 pm. Los vehículos ingresan para la instalación a las 8:30 am y se pueden retirar con el equipo instalado a partir de las 5:30 pm . Si necesitas más detalles o deseas programar una instalación, no dudes en contactarnos.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "7c3d2e041e968efc2018bb8515c47d57"
+  },
+  {
+    "ref": "3ad07bb2-f6fd-4089-a767-9047d7006407",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Si además, un amigo necesita hacer una prueba hidráulica, ustedes acen?>",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "1bbaa0efb200d8766fc00ab0d0a6ca92"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "c289eed9-dede-4f04-b17c-0169c4a984a2",
+    "keyword": null,
+    "answer": "Sí, realizamos pruebas hidráulicas. No es necesario sacar turno, simplemente puedes acercarte de lunes a jueves, hasta el mediodía, para retirar los cilindros. El precio de la prueba hidráulica es de $160.000 por un cilindro y $280.000 por dos cilindros, e incluye la prueba hidráulica, el cambio de válvula de cilindro y la actualización de la cédula del gas y la oblea. Si necesitas más detalles o deseas programar una prueba hidráulica, no dudes en contactarnos.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "2c333917302dfa1635ac3252d299beff"
+  },
+  {
+    "ref": "f532b244-f28e-445b-9174-e2eb5c48dcdd",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Dale me sirve, tengo otro amigo que necesita hacer el tramite de la oblea",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "0f68fb65d955ba65e718330322f58ab8"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "da3f2774-3cdc-4bd5-8e09-f8b4e7623fcb",
+    "keyword": null,
+    "answer": "Para iniciar el trámite de la oblea, tu amigo puede enviar una foto de frente y dorso de la cédula del auto y del DNI (asegurándose de que los datos sean legibles) para iniciar el trámite de manera online. El precio del trámite es de $13.000 y se abona únicamente por transferencia bancaria o en efectivo en el taller. Una vez enviada la documentación, la oblea puede ser retirada sin necesidad de turno previo al día siguiente hábil .",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "11364e36780ded7f9daadffda745adc7"
+  },
+  {
+    "ref": "9c195616-d297-4a2f-8dfe-7053ddd8eea7",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Dale quiero abonar con transferencia, donde envió?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "472e0f3a0454895a3c1ff5dd6aef20b4"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "bfd08744-84ed-465c-936a-ae0b16ff4303",
+    "keyword": null,
+    "answer": "El pago por transferencia para la renovación de la oblea se realiza a través del alias \"Obleasmotorgas\" a nombre de Joaqui González Silvestri. Una vez realizado el pago, tu amigo puede enviar la documentación requerida para iniciar el trámite de la oblea.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "6d9b0067785b963d1e55f7e3e7d7636d"
+  },
+  {
+    "ref": "0e3f0534-ff69-4f7c-8f6a-34fbe0a91fbd",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Ah y otra cosa, del Ford focus con el de 60. que autonomía tendría?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "acd589d4448e04fdd59d53da54d7f155"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "29745d4b-50f0-4699-9366-50c91a951787",
+    "keyword": null,
+    "answer": "Para un Ford Focus con un cilindro de 60 litros, la autonomía aproximada en ciudad es de 140-180 km y en ruta es de 180-240 km, según la capacidad del cilindro y el tipo de motor. Si necesitas más detalles sobre la autonomía para un motor específico, no dudes en consultarme.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "743776b9ba2b242e87be63f2b701c672"
+  },
+  {
+    "ref": "3229fce1-8e00-45cf-bdfc-c93e7b979817",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "Mi motor es 1.6",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "f0d70d28b36139842d4447c149ab9be6"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "a38a57e0-1fea-440f-b08b-d9324fc60345",
+    "keyword": null,
+    "answer": "Con un motor de 1.6 litros, la autonomía aproximada para un Ford Focus con un cilindro de 60 litros es de 180-240 km en ciudad y de 240-320 km en ruta. Estos valores son estimados y pueden variar según las condiciones de manejo y otros factores. Si necesitas más información o tienes alguna otra consulta, no dudes en preguntar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "8159c383508aea58edc681eaa30cc22d"
+  },
+  {
+    "ref": "bacf7038-cd7d-4d9c-a311-18e2604e7a69",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "no son menos?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "9667a63971b6b654f35002cecffa2d4e"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  },
+  {
+    "ref": "423e3443-159e-4ab9-913a-a24d837e61a5",
+    "keyword": null,
+    "answer": "Mis disculpas por la confusión. De acuerdo con la información proporcionada, la autonomía aproximada para un Ford Focus con un cilindro de 60 litros y un motor de 1.6 litros es de 120-150 km en ciudad y de 150-200 km en ruta. Gracias por señalarlo, y si necesitas más detalles o tienes alguna otra pregunta, no dudes en consultarme.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5491124033487",
+    "refSerialize": "7c2ea1e744960968651faf5f1324e71c"
+  },
+  {
+    "ref": "debeb0fa-0ced-4633-84de-015672308000",
+    "keyword": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "answer": "y para uno de 40, cual seria la economía?",
+    "options": {},
+    "from": "5491124033487",
+    "refSerialize": "599d67c91bafaa578eb94b8c7a13f059"
+  },
+  {
+    "ref": "ans_b975c2a2-b649-43ce-b0f1-af6241f1efdf",
+    "keyword": "key_870e4e7e-eb1c-4e9c-8222-2193119dc6de",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "36ca7a6ae18ba853f9ce663a6fb0585a",
+    "from": "5491124033487"
+  }
+]
