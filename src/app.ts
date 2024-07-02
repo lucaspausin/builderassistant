@@ -57,16 +57,11 @@ const main = async () => {
 		database: adapterDB,
 	});
 
-	adapterProvider.server.get(
-		"/",
-		handleCtx(async (bot, req, res) => {
-			try {
-				await sendMessageWoodChat("ejemplo");
-			} catch (error) {
-				console.error("Error sending message:", error);
-			}
-		})
-	);
+	try {
+		await sendMessageWoodChat("ejemplo inicial");
+	} catch (error) {
+		console.error("Error sending initial message:", error);
+	}
 
 	httpServer(+PORT);
 
